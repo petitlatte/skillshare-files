@@ -1,12 +1,13 @@
 var app = new Vue({
 	el: '#app',
 		data: {
-
-
+			on:false,
+			color:"purple",
 		},
-		methods:{
+
+		methods: {
 			toggle: function(){
-				console.log('lamp clicked!');
+				this.on = !this.on; //inverts properties. true<->false
 			}
 		}
 });

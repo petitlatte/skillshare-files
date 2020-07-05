@@ -10,13 +10,13 @@
 <div id = "app">
 <div class="lamp" v-on:click ="toggle">
 	<div class="shade">
-		<div class="light"></div>
+		<div class="light" v-if = "on" v-bind:style = "{backgroundColor: color}"></div>
 	</div>
 
 <div class="base"></div>	
 
-</div>
 </div><!--lamp-->
+<input type = "text" v-model = "color"> Type a valid CSS here
 </div><!--app-->	
 
 
