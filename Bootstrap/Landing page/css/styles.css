@@ -1,0 +1,41 @@
+body {
+	background: url(../images/background.jpg)no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+	font-family: Oswald,monospace,serif;
+}
+
+.container{
+	margin-top: 8%;
+}
+
+.box{
+	border: 3px dashed red;
+	text-align: center;
+}
+
+span{
+	font-size: 50px;
+	font-weight:bold;
+	color: #FFFF00;
+}
+
+p{
+	font-size: 20px;
+	margin-top:10px;
+}
+
+.btn{
+	background-color: #8B0000;
+	margin-top:20px;
+	margin-bottom: 20px;
+	padding:10px;
+	color:white;
+	font-size:35px;
+	font-weight:bold;
+}
+
+.btn:hover{
+	background-color:#A52A2A;
+	color: #fff;
+}
